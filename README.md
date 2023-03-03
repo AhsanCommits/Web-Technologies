@@ -111,7 +111,6 @@ To get started with this repository, simply clone the repository to your local m
             </ul>
             <h2>Resources</h2>
             <p>This repository contains a variety of tutorials to help students succeed in the course, including:</p>
-            <h2>Tutorials</h2>
             <ul>
                 <li>
                 <a href="https://youtu.be/5p8e2ZkbOFU">
@@ -173,6 +172,6 @@ To get started with this repository, simply clone the repository to your local m
 <h2>
 Contributing
 </h2>
-<p>If you would like to contribute to this repository, please create a pull request with your changes. We welcome contributions that improve the clarity or accuracy of the roadmap or tasks.</p>
+<p>If you would like to contribute to this repository, please create a pull request with your changes. I welcome contributions that improve the clarity or accuracy of the roadmap or tasks.</p>
  <h2>Conclusion</h2>
 <p>I hope that this repository has provided you with a solid foundation in web development, and has equipped you with the skills and knowledge needed to build web applications. Happy coding!</p>
