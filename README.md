@@ -2,14 +2,12 @@
     <p>Welcome to the web development roadmap and tasks repository for the Web Technologies course offered by COMSATS
         University. In this repository, you will find a comprehensive guide to web development that covers all the
         important technologies and tools needed to become a successful web developer.</p>
-
 <h2>Getting Started</h2>
 <p>
 To get started with this repository, simply clone the repository to your local machine:
 </p>
-```
-git clone https://github.com/AhsanRaza059/Web-Technologies.git
-```
+<pre><code>git clone https://github.com/AhsanRaza059/Web-Technologies.git
+</code></pre>
 <p>Once you have cloned the repository, you can explore the roadmap and tasks in more detail.</p>
     <h2>Table of Contents</h2>
     <ul>
@@ -31,7 +29,6 @@ git clone https://github.com/AhsanRaza059/Web-Technologies.git
         least
         one programming language. Knowledge of HTML and CSS is also helpful, but not required.</p>
     <h2>Roadmap</h2>
-    <hr>
     <h3>HTML</h3>
     <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages. In this section, you
         will
@@ -112,56 +109,45 @@ git clone https://github.com/AhsanRaza059/Web-Technologies.git
                     Building a dynamic website using Node.js, Express.js, and MongoDB
                 </li>
             </ul>
-            <h2>Conclusion</h2>
-            <p>I hope that this repository has provided you with a solid foundation in web development, and has equipped
-                you
-                with the skills and knowledge needed to build web applications. Happy coding!</p>
             <h2>Resources</h2>
             <p>This repository contains a variety of tutorials to help students succeed in the course, including:</p>
             <h2>Tutorials</h2>
             <ul>
-                <li>🔴 Complete HTML and CSS Tutorial In One Video In Hindi | Urdu
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5p8e2ZkbOFU"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/5p8e2ZkbOFU">
+                Complete HTML and CSS Tutorial In One Video In Hindi | Urdu
+                    </a>
                 </li>
-                <li>🔴 JavaScript in One Video in Hindi | Urdu
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PODgPW-hbfU"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/PODgPW-hbfU">
+                JavaScript in One Video in Hindi | Urdu
+                   </a>
                 </li>
-                <li>🔴 jQuery in One Video in Hindi | Urdu
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PNvyPEQ0y-I"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/PNvyPEQ0y-I">
+                jQuery in One Video in Hindi | Urdu
+                    </a>
                 </li>
-                <li>🔴 Complete React JS Tutorial in Hindi | Urdu with 5 Projects
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EHTWMpD6S_0"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/EHTWMpD6S_0">
+                Complete React JS Tutorial in Hindi | Urdu with 5 Projects
+                    </a>
                 </li>
-                <li>🔴 Node.JS in One Video in Hindi | Urdu with One Mini Project
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ipnWAKoiBtY"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/ipnWAKoiBtY">
+                Node.JS in One Video in Hindi | Urdu with One Mini Project
+                    </a>
                 </li>
-                <li>🔴 ExpressJs Tutorial in One Video in Hindi | Urdu with One Mini Project
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AX1AP83CuK4"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <li>
+                <a href="https://youtu.be/AX1AP83CuK4">
+                ExpressJs Tutorial in One Video in Hindi | Urdu with One Mini Project
+                    </a>
                 </li>
-                <li>🔴 NoSQL & MongoDB in One Video In Hindi | Urdu
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hv7Y-Ct9sE4"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </li>
+                <li>
+                <a href="https://youtu.be/hv7Y-Ct9sE4">
+                NoSQL & MongoDB in One Video In Hindi | Urdu
+                    </a>
+                                </li>
             </ul>
             <p>
                 Additionally, students are encouraged to explore the following resources:
@@ -184,8 +170,9 @@ git clone https://github.com/AhsanRaza059/Web-Technologies.git
                     </a>
                 </li>
             </ul>
-
 <h2>
 Contributing
 </h2>
 <p>If you would like to contribute to this repository, please create a pull request with your changes. We welcome contributions that improve the clarity or accuracy of the roadmap or tasks.</p>
+ <h2>Conclusion</h2>
+<p>I hope that this repository has provided you with a solid foundation in web development, and has equipped you with the skills and knowledge needed to build web applications. Happy coding!</p>
