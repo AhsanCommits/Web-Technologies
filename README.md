@@ -52,7 +52,7 @@
     <li><a href="https://youtu.be/5p8e2ZkbOFU">Complete HTML and CSS Tutorial In One Video In Hindi | Urdu</a></li>
     <li><a href="https://youtu.be/PODgPW-hbfU">JavaScript in One Video in Hindi | Urdu</a></li>
     <li><a href="https://youtu.be/PNvyPEQ0y-I">jQuery in One Video in Hindi | Urdu</a></li>
-    <li><a href="https://youtu.be/Qb8DLdSYBAo">Complete Bootstrap 5 in Hindi 🔥 Creating Multiple Pages Website using Bootstrap 5 in Hindi | Urdu</a></li>
+    <li><a href="https://youtu.be/Qb8DLdSYBAo">Complete Bootstrap 5 in Hindi | Urdu</a></li>
     <li><a href="https://youtu.be/EHTWMpD6S_0">Complete React JS Tutorial in Hindi | Urdu with 5 Projects</a></li>
     <li><a href="https://youtu.be/ipnWAKoiBtY">Node.JS in One Video in Hindi | Urdu with One Mini Project</a></li>
     <li><a href="https://youtu.be/AX1AP83CuK4">ExpressJs Tutorial in One Video in Hindi | Urdu with One Mini Project</a></li>
