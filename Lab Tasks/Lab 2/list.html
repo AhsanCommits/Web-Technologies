@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {
+            width: 40%;
+            height: 80%;
+            background-color: rgb(146, 146, 146);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            border: 4px dotted black;
+            border-radius: 10px;
+        }
+
+        h1,
+        h2 {
+            color: yellow;
+        }
+
+        ol[type="1"] {
+            color: blue;
+        }
+
+        ul[type="circle"] {
+            color: white;
+        }
+
+        ol[type="I"] {
+            color: green;
+
+        }
+
+        ul[type="disc"] {
+            color: greenyellow;
+        }
+
+        li {
+            font-weight: bold;
+        }
+
+        .title {
+
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>This List is About Counting</h1>
+            <h2>Let's Start</h2>
+        </div>
+        <ol type="A">
+            <li>
+                One
+            </li>
+            <li>
+                Two
+            </li>
+            <li>
+                Three
+            </li>
+            <ol type="1">
+                <li>Four</li>
+                <li>Five</li>
+                <li>Six</li>
+            </ol>
+            <ul type="circle">
+                <li>Seven</li>
+                <li>Eight</li>
+                <li>Nine</li>
+            </ul>
+            <ol type="I">
+                <li>Ten</li>
+                <li>Eleven</li>
+                <li>Twelve</li>
+            </ol>
+            <ul type="disc">
+                <li>Thirteen</li>
+                <li>Fourteen</li>
+                <li>Fifteen</li>
+            </ul>
+
+
+        </ol>
+    </div>
+
+</body>
+
+</html>
