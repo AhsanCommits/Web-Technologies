@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin containerMobile($size) {
+  html {
+    font-size: $size;
+  }
+  .columns__wrapper {
+    flex-direction: column;
+  }
+}
+@mixin textStyling($font, $weight, $size, $lineHeight) {
+  font-family: $font;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $lineHeight;
+}
+html {
+  font-size: 62.5%;
+  color: #ffffff;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: radial-gradient(
+      78.2% 82.08% at 50% 0%,
+      #f70063 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      59.92% 60.05% at 50% 100%,
+      #3e3b91 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    #ffffff;
+  h1 {
+    @include textStyling('Inter', 700, 5rem, 9.7rem);
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .table__label {
+    h2 {
+      @include textStyling('Inter', 700, 1.8rem, 2.3rem);
+      text-align: center;
+      margin: 1rem 0;
+    }
+  }
+}
+
+.left__column {
+  width: 40rem;
+  height: 43rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25rem);
+  border-radius: 1rem;
+  padding: 1.1rem;
+  div.head__text {
+    margin-bottom: 1rem;
+  }
+  div.head__text p {
+    @include textStyling('Inter', 700, 2.1rem, 2.5rem);
+    display: inline-block;
+  }
+  div.head__text p.name {
+    margin-left: 2.8rem;
+  }
+  div.body__text p {
+    @include textStyling('Inter', 300, 1.5rem, 3.7rem);
+    display: inline-block;
+  }
+  div.body__text p.name {
+    margin-left: 1.2rem;
+  }
+}
+
+.columns__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100rem;
+}
+
+@media (max-width: 998px) {
+  @include containerMobile(55%);
+}
+@media (max-width: 768px) {
+  @include containerMobile(45%);
+}
