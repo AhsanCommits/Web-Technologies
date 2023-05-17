@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #4f81bd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2vh 5vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo,
+.header,
+.login,
+.signin,
+.userinfo,
+.userdata,
+.action,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+header {
+  height: 15%;
+  display: flex;
+}
+.logo {
+  width: 20%;
+  background-color: #ffff00;
+  color: #000000b9;
+}
+.header {
+  width: 80%;
+  background-color: #c00000;
+}
+.index-main {
+  height: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.login {
+  height: 50%;
+  width: 95%;
+  background-color: #77933c;
+  position: relative;
+}
+.signin {
+  height: 50%;
+  width: 95%;
+  background-color: #77933c;
+  position: relative;
+}
+footer {
+  height: 10%;
+  background-color: #f79646;
+}
+
+.message-main {
+  height: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.user {
+  height: 22%;
+  display: flex;
+}
+.userinfo {
+  width: 20%;
+  background-color: #9bbb59;
+}
+.userdata {
+  width: 80%;
+  background-color: #4bacc6;
+}
+.body {
+  height: 85%;
+  display: flex;
+  gap: 10px;
+}
+.action {
+  width: 30%;
+  background-color: #002060;
+}
+.message-pannel {
+  width: 70%;
+  background-color: #55efc4;
+  border: 2px solid #002060;
+  padding: 5px;
+  overflow: scroll;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+.message {
+  display: flex;
+  height: 20%;
+  margin: 25px;
+}
+.message-profile {
+  width: 20%;
+  background-color: #c0504d;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.message-data {
+  width: 80%;
+  background-color: #4f6228;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.btn {
+  position: absolute;
+  height: 15%;
+  width: 10%;
+  right: 5%;
+  bottom: 10%;
+  color: white;
+  background-color: #f79646;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}

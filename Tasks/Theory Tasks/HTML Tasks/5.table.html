@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .navbar,
+        .footer {
+            height: 10vh;
+        }
+
+        .sidebar {
+            width: 20vw
+        }
+
+        .content {
+            width: 80vw
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1px">
+        <tr>
+            <td colspan="2" class="navbar">Navbar</td>
+        </tr>
+        <tr>
+            <td class="sidebar">Sidebar</td>
+            <td class="content">Content</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">Footer</td>
+        </tr>
+    </table>
+</body>
+
+</html>
