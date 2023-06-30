@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Effects</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hideBtn").click(function () {
+                $("#content").hide();
+            });
+
+            $("#showBtn").click(function () {
+                $("#content").show();
+            });
+
+            $("#fadeInBtn").click(function () {
+                $("#content").fadeIn();
+            });
+
+            $("#fadeOutBtn").click(function () {
+                $("#content").fadeOut();
+            });
+
+            $("#slideDownBtn").click(function () {
+                $("#content").slideDown();
+            });
+
+            $("#slideUpBtn").click(function () {
+                $("#content").slideUp();
+            });
+
+            $("#toggleBtn").click(function () {
+                $("#content").toggle();
+            });
+
+            $("#animateBtn").click(function () {
+                $("#content").animate({
+                    opacity: "0.5",
+                    left: "+=50",
+                    height: "toggle"
+                }, 2000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="fadeInBtn">Fade In</button>
+    <button id="fadeOutBtn">Fade Out</button>
+    <button id="slideDownBtn">Slide Down</button>
+    <button id="slideUpBtn">Slide Up</button>
+    <button id="toggleBtn">Toggle</button>
+    <button id="animateBtn">Animate</button>
+
+    <div id="content">Hello, world!</div>
+</body>
+
+</html>

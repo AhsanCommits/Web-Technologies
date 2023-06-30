@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery-3</title>
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+
+    Jquery Selectors:
+
+    <select>
+        <option class="select" value="1">One</option>
+        <option class="select" value="2">Two</option>
+        <option class="select" value="3">Three</option>
+        <option class="select" value="4">Four</option>
+        <option class="select" value="5">Five</option>
+        <option class="select" value="6">Six</option>
+        <option class="select" value="7">Seven</option>
+    </select>
+    <button>click me</button>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.select').select(function () {
+                $('button').click(function () {
+                    $('body').css('background-color', 'red');
+                });
+            }
+            );
+        });
+    </script>
+</body>
+
+</html>
