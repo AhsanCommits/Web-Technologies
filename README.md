@@ -2,7 +2,7 @@
 <p>Welcome to the web development roadmap and tasks repository for the Web Technologies course offered by COMSATS University. In this repository, you will find a comprehensive guide to web development that covers all the important technologies and tools needed to become a successful web developer.</p>
 <h2>Getting Started</h2>
 <p>To get started with this repository, simply clone the repository to your local machine:</p>
-<pre><code>git clone https://github.com/AhsanRaza059/Web-Technologies.git</code></pre>
+<pre><code>git clone https://github.com/AhsanCommits/Web-Technologies.git</code></pre>
 <p>Once you have cloned the repository, you can explore the roadmap and tasks in more detail.</p>
 <h2>Table of Contents</h2>
 <ul>
